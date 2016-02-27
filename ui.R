@@ -32,7 +32,7 @@ shinyUI(pageWithSidebar(
   ),
   mainPanel(
       h3('Documentation'),
-      p("This application, written with the R library 'shiny', produces a graph showing the return on an investment, based on user supplied parameters."),
+      p("This application, written with the R library 'shiny', produces a graph showing the return on an investment, for compound interest based on user supplied interest rate, principal and other parameters."),
       p("You can adjust these parameters on the left of the screen. They should be self-explanatory. Please press 'Submit' when you're ready and the application will re-draw the graph."),
       h3('Forecast'),
       plotOutput('newPlot'),
